@@ -1,4 +1,4 @@
-Agfa Jira is a Google Chrome extension that augments Jira issue pages. 
+Agfa Jenkins is a Google Chrome extension that augments Jenkins job pages. 
 
 ## Actions
 

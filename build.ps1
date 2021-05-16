@@ -1,4 +1,4 @@
-$extensionName = 'Agfa Jira Chrome Extension'
+$extensionName = 'Agfa Jenkins Chrome Extension'
 
 # --------------
 

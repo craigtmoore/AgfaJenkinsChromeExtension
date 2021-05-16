@@ -1,11 +1,11 @@
 {
   "manifest_version" : 2,
-  "name" : "Agfa JIRA",
+  "name" : "Agfa Jenkins",
   "version" : "0.8.0",
 
-  "description" : "Adds custom actions to JIRA issue pages",
+  "description" : "Adds custom actions to Jenkins job pages",
 
-  "homepage_url": "https://github.com/blairconrad/AgfaJiraChromeExtension",
+  "homepage_url": "https://github.com/craigtmoore/AgfaJenkinsChromeExtension",
 
 "options_ui": {
     "page": "options.html",
@@ -27,41 +27,35 @@
     "default_icon": {
       "16": "icon16.png"
     },
-    "default_title": "AGFA JIRA",
+    "default_title": "AGFA Jenkins",
     "default_popup": "popup.html"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://jiraprod.agfahealthcare.com/*"],
+      "matches": ["*://ei-ci.agfahealthcare.com/jenkins/*"],
       "js": ["content_script.js"]
     }
   ],
 
   "commands": {
-    "copy-title": {
+    "copy-jira": {
       "suggested_key": {
-        "default": "Alt+T"
+        "default": "Alt+J"
       },
-      "description": "Copy title"
+      "description": "Copy URL Jira format"
     },
-    "copy-link": {
+    "copy-markdown": {
       "suggested_key": {
-        "default": "Alt+L"
+        "default": "Alt+M"
       },
-      "description": "Copy link as markdown"
+      "description": "Copy URL in markdown Format "
     },
-    "copy-html-link": {
+    "copy-html": {
       "suggested_key": {
         "default": "Alt+H"
       },
-      "description": "Copy link as HTML"
-    },
-    "send-email": {
-      "suggested_key": {
-        "default": "Alt+S"
-      },
-      "description": "Email issue"
+      "description": "Copy URL in HTML format"
     }
   },
 

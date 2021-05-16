@@ -18,7 +18,7 @@ created from the main development branch, which is called `master`. To
 submit a change:
 
 1. [Fork](http://help.github.com/forking/) the
-   [repository](https://github.com/blairconrad/AgfaJiraChromeExtension)
+   [repository](https://github.com/craigtmoore/AgfaJenkinsChromeExtension)
    on GitHub
 1. Clone your fork locally
 1. Configure the upstream repo (`git remote add upstream

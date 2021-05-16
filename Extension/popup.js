@@ -1,5 +1,7 @@
 function onWindowLoad() {
   function showKeybinding(command) {
+    console.log(command.shortcut)
+    console.log(command.shortcut)
     if (command.shortcut) {
       document.getElementById(command.name).innerHTML += ' (' + command.shortcut + ')';
     }
@@ -21,19 +23,19 @@ function onWindowLoad() {
         return;
       }
 
-      var titleItem = document.getElementById('copy-title');
+      var titleItem = document.getElementById('copy-jira');
       titleItem.onclick = function(event) {
         snagTitle(response);
         window.close();
       }
 
-      var urlItem = document.getElementById('copy-link');
+      var urlItem = document.getElementById('copy-markdown');
       urlItem.onclick = function(event) {
         snagLink(response);
         window.close();
       }
 
-      var htmlItem = document.getElementById('copy-html-link');
+      var htmlItem = document.getElementById('copy-html');
       htmlItem.onclick = function(event) {
         snagHtmlLink(response);
         window.close();
