@@ -9,6 +9,7 @@ function copyToClipboard(text) {
   document.execCommand('copy');
   ta.style.display = 'none';
 }
+
 function copyHtmlToClipboard(text) {
   var htmlDiv = document.getElementById('htmlDiv');
   htmlDiv.innerHTML = text
