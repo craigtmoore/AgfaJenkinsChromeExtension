@@ -26,20 +26,16 @@ li:hover {
     background-color: #296CA3;
 }
 
-.action_url {
-    background: url('url16.png') no-repeat 5px 3px transparent;
+.action_html {
+    background: url('html16.png') no-repeat 5px 3px transparent;
 }
 
-.action_htmlLink {
-    background: url('url16.png') no-repeat 5px 3px transparent;
+.action_jira {
+    background: url('jira16.png') no-repeat 5px 3px transparent;
 }
 
-.action_title {
-    background: url('title16.png') no-repeat 5px 3px transparent;
-}
-
-.action_email {
-    background: url('email16.png') no-repeat 5px 3px transparent;
+.action_markdown {
+    background: url('md16.png') no-repeat 5px 3px transparent;
 }
 
 /* 

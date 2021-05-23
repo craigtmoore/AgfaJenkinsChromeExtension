@@ -52,7 +52,7 @@ function getText(url, format) {
 
     if (foundJob && "job" != it && "junit" != it) {
 
-      var displayText = it.replace("%20", " ")
+      var displayText = it.replaceAll("%20", " ")
 
       if (isNumeric(displayText)) {
           displayText = "#" + displayText

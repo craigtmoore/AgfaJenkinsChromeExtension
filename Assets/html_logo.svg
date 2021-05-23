@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="html_logo.svg"
+   inkscape:export-filename="D:\dev\AgfaJenkinsChromeExtension\Extension\html16.png"
+   inkscape:export-xdpi="12"
+   inkscape:export-ydpi="12">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="-19.367322"
+     inkscape:cy="45.311814"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2400"
+     inkscape:window-height="1321"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     inkscape:snap-nodes="false"
+     inkscape:snap-others="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-170.06157,-270.18109)">
+    <polygon
+       id="polygon3028"
+       points="404.321,470.819 255.778,512 107.644,470.877 74.633,100.62 437.367,100.62 "
+       style="fill:#b3b3b3"
+       transform="matrix(0.31114785,0,0,0.31114785,154.40772,238.87339)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:'Arial monospaced for SAP';-inkscape-font-specification:'Arial monospaced for SAP Bold'"
+       x="86.668709"
+       y="298.57394"
+       id="text2182"><tspan
+         sodipodi:role="line"
+         id="tspan2180"
+         x="86.668709"
+         y="298.57394" /></text>
+    <polygon
+       id="polygon3030"
+       points="256,130.894 256,480.523 376.03,447.246 404.27,130.894 "
+       style="fill:#cccccc"
+       transform="matrix(0.31143298,0,0,0.31143298,157.31141,237.27353)" />
+    <g
+       id="g2389"
+       transform="matrix(0.28420715,0,0,0.28420715,273.3567,267.22282)"
+       style="fill:#ffffff">
+      <path
+         id="path3036"
+         d="m -273.79152,56.9041 h 23.077 v 22.8 h 21.11 v -22.8 h 23.078 v 69.044 h -23.077 v -23.12 h -21.11 v 23.12 h -23.077 v -69.044 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff" />
+      <path
+         id="path3038"
+         d="m -176.17952,79.8001 h -20.316 v -22.896 h 63.72 v 22.896 h -20.325 v 46.148 h -23.078 v -46.148 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff" />
+      <path
+         id="path3040"
+         d="m -122.66252,56.9041 h 24.063 l 14.802,24.26 14.787,-24.26 h 24.072 v 69.044 h -22.982 v -34.222 l -15.877,24.549 h -0.397 l -15.888,-24.549 v 34.222 h -22.58 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff" />
+      <path
+         id="path3042"
+         d="m -33.45352,56.9041 h 23.084 v 46.222 h 32.453 v 22.822 h -55.537 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>
