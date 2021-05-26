@@ -33,7 +33,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://ei-ci.agfahealthcare.com/jenkins/*"],
+      "matches": ["*://ei-ci.agfahealthcare.com/jenkins/*", "*://jenkins01-iibu.agfahealthcare.com/*"],
       "js": ["content_script.js"]
     }
   ],
