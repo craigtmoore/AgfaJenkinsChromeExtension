@@ -1,28 +1,18 @@
 {
-  "manifest_version" : 2,
-  "name" : "Agfa Jenkins",
-  "version" : "0.8.0",
-
-  "description" : "Adds custom actions to Jenkins job pages",
-
+  "manifest_version": 2,
+  "name": "Agfa Jenkins",
+  "version": "0.8.0",
+  "description": "Adds custom actions to Jenkins job pages",
   "homepage_url": "https://github.com/craigtmoore/AgfaJenkinsChromeExtension",
-
-"options_ui": {
-    "page": "options.html",
-    "chrome_style": true
-  },
-
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
-
   "background": {
     "page": "background.html",
     "persistent": false
   },
-
   "page_action": {
     "default_icon": {
       "16": "icon16.png"
@@ -30,14 +20,17 @@
     "default_title": "AGFA Jenkins",
     "default_popup": "popup.html"
   },
-
   "content_scripts": [
     {
-      "matches": ["*://ei-ci.agfahealthcare.com/jenkins/*", "*://jenkins01-iibu.agfahealthcare.com/*"],
-      "js": ["content_script.js"]
+      "matches": [
+        "*://ei-ci.agfahealthcare.com/jenkins/*",
+        "*://jenkins01-iibu.agfahealthcare.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
     }
   ],
-
   "commands": {
     "copy-jira": {
       "suggested_key": {
@@ -58,7 +51,6 @@
       "description": "Copy URL in HTML format"
     }
   },
-
   "permissions": [
     "activeTab",
     "clipboardWrite",
