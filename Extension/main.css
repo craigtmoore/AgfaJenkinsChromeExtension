@@ -2,7 +2,6 @@ body {
     background-color: #205081;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    color: white;
 }
 
 ul {
@@ -43,7 +42,6 @@ When copying the HTML, we get all the cascaded style sheets with it.
 Use the default font/font-size and bg color of Outlook.
 */
 .html_link {
-    background-color: white;
     font-family: Calibri, sans-serif;
     font-size: 11pt;
 }
