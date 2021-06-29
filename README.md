@@ -10,9 +10,6 @@ below:
 * Copy Breadcrumb as Jira Format <kbd>Alt+J</kbd>
 * Copy Breadcrumb as HTML <kbd>Alt+H</kbd>
 
-You can always choose your own shortcuts at the bottom of the Chrome
-Extensions page.
-
 ----
 The extension is tied to the Jenkin's servers at Agfa Healthcare, and won't work on
 other Jenkins instances.
