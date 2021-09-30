@@ -42,6 +42,11 @@ function getText(url, format) {
 
   var textFormat = ""
 
+  var separator = ">" // for JIRA and MARKDOWN formats
+  if (format == null) {
+      separator = "&gt;" // for HTML format
+  }
+
   addressArray.forEach(it => {
     
     if (runningUrl) {
@@ -70,7 +75,7 @@ function getText(url, format) {
         }
 
         if (htmlFormat) {
-            link = ` > ${link}`
+            link = ` ${separator} ${link}`
         }
 
         if (textFormat) {

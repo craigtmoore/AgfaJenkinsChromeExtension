@@ -1,5 +1,4 @@
 body {
-    background-color: #205081;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
@@ -35,15 +34,6 @@ li:hover {
 
 .action_markdown {
     background: url('md16.png') no-repeat 5px 3px transparent;
-}
-
-/* 
-When copying the HTML, we get all the cascaded style sheets with it.
-Use the default font/font-size and bg color of Outlook.
-*/
-.html_link {
-    font-family: Calibri, sans-serif;
-    font-size: 11pt;
 }
 
 textarea {

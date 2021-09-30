@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="128"
    height="128"
    id="svg2"
    version="1.1"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    sodipodi:docname="html_logo.svg"
    inkscape:export-filename="D:\dev\AgfaJenkinsChromeExtension\Extension\html16.png"
    inkscape:export-xdpi="12"
-   inkscape:export-ydpi="12">
+   inkscape:export-ydpi="12"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="-19.367322"
-     inkscape:cy="45.311814"
+     inkscape:cx="70.267857"
+     inkscape:cy="73.839286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,14 +35,15 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2400"
-     inkscape:window-height="1321"
-     inkscape:window-x="-9"
+     inkscape:window-width="1842"
+     inkscape:window-height="1051"
+     inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      inkscape:snap-nodes="false"
-     inkscape:snap-others="false" />
+     inkscape:snap-others="false"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -51,7 +52,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,7 +63,7 @@
     <polygon
        id="polygon3028"
        points="404.321,470.819 255.778,512 107.644,470.877 74.633,100.62 437.367,100.62 "
-       style="fill:#b3b3b3"
+       style="fill:#000000;fill-opacity:1"
        transform="matrix(0.31114785,0,0,0.31114785,154.40772,238.87339)" />
     <text
        xml:space="preserve"
@@ -78,7 +78,7 @@
     <polygon
        id="polygon3030"
        points="256,130.894 256,480.523 376.03,447.246 404.27,130.894 "
-       style="fill:#cccccc"
+       style="fill:#515151;fill-opacity:1"
        transform="matrix(0.31143298,0,0,0.31143298,157.31141,237.27353)" />
     <g
        id="g2389"
