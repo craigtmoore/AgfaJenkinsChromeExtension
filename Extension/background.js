@@ -42,10 +42,7 @@ function getText(url, format) {
 
   var textFormat = ""
 
-  var separator = ">" // for JIRA and MARKDOWN formats
-  if (format == null) {
-      separator = "&gt;" // for HTML format
-  }
+  var separator = ">"
 
   addressArray.forEach(it => {
     
