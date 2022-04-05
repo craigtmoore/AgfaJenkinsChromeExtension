@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Agfa Jenkins Breadcrumb",
   "version": "1.1.0",
-  "description": "An extension for the Agfa Jenkins server, which copies the page URL into your clipboard as a break crumb style address",
+  "description": "An extension for the Agfa Jenkins server, which copies the page URL into your clipboard as a breadcrumb style address",
   "homepage_url": "https://github.com/craigtmoore/AgfaJenkinsChromeExtension",
   "icons": {
     "16": "icon16.png",
