@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Agfa Jenkins Breadcrumb",
-  "version" : "1.0.0",
+  "version" : "2.0.0",
   "description": "An extension for the Agfa Jenkins server, which copies the page URL into your clipboard as a breadcrumb style address",
   "homepage_url": "https://github.com/craigtmoore/AgfaJenkinsChromeExtension",
   "icons": {
@@ -9,12 +9,11 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "background": {
-    "page": "background.html",
-    "persistent": false
-  },
-  "browser_action": {
-    "default_icon": "icon48.png",
+  "action": {
+    "default_icon": {
+      "16": "icon16.png"
+    },
+    "default_title": "AGFA Jenkins",
     "default_popup": "popup.html"
   },
   "content_scripts": [
