@@ -31,21 +31,14 @@ function isNumeric(n) {
 }
 
 function getText(url, format) {
-
   var addressArray = url.split("/")
-
   var htmlFormat = ""
-
   var runningUrl = ""
-
   var foundJob = false
-
   var textFormat = ""
-
   var separator = ">"
 
   addressArray.forEach(it => {
-    
     if (runningUrl) {
         runningUrl += `/${it}`
     } else {
@@ -55,13 +48,11 @@ function getText(url, format) {
     if (foundJob && "job" != it && "junit" != it) {
 
       var displayText = it.replaceAll("%20", " ")
-
       if (isNumeric(displayText)) {
           displayText = "#" + displayText
       }
 
       if (displayText) {
-        
         var link
         if (format === "MARKDOWN") {
             link = `[${displayText}](${runningUrl})`
@@ -80,9 +71,7 @@ function getText(url, format) {
         }
 
         textFormat += displayText
-
         htmlFormat += link
-    
       }
 
     } else if ("job" === it) {
