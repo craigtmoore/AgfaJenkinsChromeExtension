@@ -29,7 +29,7 @@ function addBuildLinks(trElement) {
   addConsoleHtml(tdFailedBuild);
 }
 
-const clipboardIcon = '<img alt="Results" src="/jenkins/static/ead2b369/images/24x24/clipboard.png" style="width: 24px; height: 24px; width: 24px; height: 24px; margin: 2px;" class="icon-clipboard icon-md">';
+const clipboardIcon = '<svg class="icon-clipboard icon-md" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 512 512"><title></title><path d="M336 64h32a48 48 0 0148 48v320a48 48 0 01-48 48H144a48 48 0 01-48-48V112a48 48 0 0148-48h32" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"></path><rect fill="none" height="64" rx="26.13" ry="26.13" stroke="currentColor" stroke-linejoin="round" stroke-width="32" width="160" x="176" y="32"></rect></svg>';
 function addTestReportHtml(tdElement) {
   let anchors = tdElement.getElementsByTagName("a");
   if (anchors.length) {
@@ -39,7 +39,7 @@ function addTestReportHtml(tdElement) {
   }
 }
 
-const terminalIcon = '<img alt="Console" src="/jenkins/static/ead2b369/images/24x24/terminal.png" style="width: 24px; height: 24px; width: 24px; height: 24px; margin: 2px;" class="icon-terminal icon-md">';
+const terminalIcon = '<svg class="icon-terminal icon-md" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 512 512"><title></title><rect fill="none" height="416" rx="48" ry="48" stroke="currentColor" stroke-linejoin="round" stroke-width="32" width="448" x="32" y="48"></rect><path d="M96 112l80 64-80 64M192 240h64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path></svg>';
 function addConsoleHtml(tdElement) {
   let anchor = tdElement.getElementsByTagName("a");
   if (anchor.length) {
